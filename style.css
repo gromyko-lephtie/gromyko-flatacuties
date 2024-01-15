@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.participants-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.participants {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.participants li {
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.participants-details {
+    flex-grow: 1;
+    padding-left: 20px;
+}
+
+.participants-details img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.vote-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.vote-button:hover {
+    background-color: #45a049;
+}
